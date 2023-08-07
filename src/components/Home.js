@@ -3,6 +3,7 @@ import { useState } from "react";
 import { ImSpinner8 } from "react-icons/im";
 
 const Home = () => {
+  // this is the API that we are going to fetch
   const url = "https://official-joke-api.appspot.com/random_joke";
   const [jokes, setJokes] = useState([
     {
